@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compilar",
+            "type": "shell",
+            "command": "javac -d bin caso1_reproductor/*.java caso2_planificador/*.java caso3_juego_cartas/*.java caso4_buffer_comandos/*.java caso5_carrusel_widgets/*.java",
+            "problemMatcher": []
+        }
+    ]
+}

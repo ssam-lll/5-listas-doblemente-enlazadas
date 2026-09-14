@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Caso 1: Reproductor",
+            "request": "launch",
+            "mainClass": "caso1_reproductor.Main",
+            "preLaunchTask": "compilar",
+            "classPaths": ["${workspaceFolder}/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Caso 2: Planificador",
+            "request": "launch",
+            "mainClass": "caso2_planificador.Main",
+            "preLaunchTask": "compilar",
+            "classPaths": ["${workspaceFolder}/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Caso 3: Juego de Cartas",
+            "request": "launch",
+            "mainClass": "caso3_juego_cartas.Main",
+            "preLaunchTask": "compilar",
+            "classPaths": ["${workspaceFolder}/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Caso 4: Buffer Comandos",
+            "request": "launch",
+            "mainClass": "caso4_buffer_comandos.Main",
+            "preLaunchTask": "compilar",
+            "classPaths": ["${workspaceFolder}/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Caso 5: Carrusel Widgets",
+            "request": "launch",
+            "mainClass": "caso5_carrusel_widgets.Main",
+            "preLaunchTask": "compilar",
+            "classPaths": ["${workspaceFolder}/bin"]
+        }
+    ]
+}
