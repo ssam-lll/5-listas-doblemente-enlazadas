@@ -4,7 +4,7 @@
         {
             "label": "compilar",
             "type": "shell",
-            "command": "javac -d bin app/src/main/java/caso1_reproductor/*.java app/src/main/java/caso2_planificador/*.java app/src/main/java/caso3_juego_cartas/*.java app/src/main/java/caso4_buffer_comandos/*.java app/src/main/java/caso5_carrusel_widgets/*.java",
+            "command": "javac --release 21 -d bin app/src/main/java/caso1_reproductor/*.java app/src/main/java/caso2_planificador/*.java app/src/main/java/caso3_juego_cartas/*.java app/src/main/java/caso4_buffer_comandos/*.java app/src/main/java/caso5_carrusel_widgets/*.java",
             "problemMatcher": []
         }
     ]
